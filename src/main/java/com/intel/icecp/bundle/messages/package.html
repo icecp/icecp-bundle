@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<body>
+This package contains the classes necessary for using the <a href="https://github.intel.com/iSPA/icecp-module-storage">storage
+    module</a> as the underlying storage mechanism. A {@link com.intel.icecp.bundle.messages.StorageClient} is provided
+for abstracting all RPC calls to the module. The bundle implementations ({@link
+com.intel.icecp.bundle.messages.MessageBundle}, {@link com.intel.icecp.bundle.messages.MessageBatch}, and {@link
+com.intel.icecp.bundle.messages.MessageItem}) use this client to retrieve stored messages and then delete them as they
+are marked finished. Because the storage module stores messages in sessions, an explicit three-tiered naming structure
+is used: instead of just generic bundles at each level, messages are represented as MessageItems, sessions as
+MessageBatches,
+and collections of sessions (i.e. what a module would use) as MessageBundles.
+</body>
+</html>
