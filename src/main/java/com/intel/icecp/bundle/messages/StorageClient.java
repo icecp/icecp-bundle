@@ -61,7 +61,7 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * Represent a storage module that is remotely available over channels; this class should model the commands exposed in
- * <a href= "https://github.intel.com/iSPA/icecp-module-storage/wiki/Command-5%26-response-messages"> icecp-module-storage
+ * <a href= "https://github.com/icecp/icecp-module-storage/wiki/Command-5%26-response-messages"> icecp-module-storage
  * response messages</a>
  *
  */
